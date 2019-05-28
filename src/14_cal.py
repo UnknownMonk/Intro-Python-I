@@ -22,11 +22,3 @@ and does the following:
 import sys
 import calendar
 from datetime import datetime
-
-cal = TextCalendar()
-
-
-def globalist_month():
-    global query_month
-    try:
-        query_month = int(sys.argv[1])
